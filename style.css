@@ -1,0 +1,59 @@
+/* Kiểu tổng quát cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tiêu đề */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 20px;
+}
+
+/* Menu điều hướng */
+nav {
+  background-color: #006699;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  width: 100px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Phần nội dung chính */
+main {
+  background-color: #f9f9f9;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Phần chân trang */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Tiêu đề lớn */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffeecc;
+}
+
+/* Đoạn văn bản */
+p {
+  line-height: 1.6;
+}
